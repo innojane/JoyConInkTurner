@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:theme="@style/Theme.JoyConInkTurner">
+
+    <TextView
+        android:id="@+id/gamepadDevicesText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:minHeight="48dp"
+        android:text="Gamepads:\n(none)" />
+
+    <com.innojane.joyconinkturner.ui.widgets.ToggleRowView
+        android:id="@+id/accessibilityToggle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:toggleText="Accessibility Permission" />
+
+    <com.innojane.joyconinkturner.ui.widgets.ToggleRowView
+        android:id="@+id/pageTurnerToggle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:toggleText="Page Turner" />
+
+    <com.innojane.joyconinkturner.ui.widgets.ToggleRowView
+        android:id="@+id/customizedToggle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:toggleText="Customized Setting" />
+
+</LinearLayout>

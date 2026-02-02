@@ -1,0 +1,21 @@
+# Gradle
+.gradle/
+build/
+
+# Local configuration
+local.properties
+
+# IDEs
+.idea/
+*.iml
+
+# Android Studio tooling
+.externalNativeBuild/
+.cxx/
+captures/
+
+# Kotlin
+*.kotlin_module
+
+# macOS
+.DS_Store

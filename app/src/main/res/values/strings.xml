@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">JoyConInkTurner</string>
+    <string name="accessibility_desc">Use Joy-Con buttons to turn pages.</string>
+    <string name="accessibility_dialog_title">Accessibility Required</string>
+    <string name="accessibility_dialog_message">Accessibility is required. Open settings to enable it?</string>
+    <string name="accessibility_dialog_positive">Go to Settings</string>
+    <string name="accessibility_dialog_negative">Cancel</string>
+</resources>

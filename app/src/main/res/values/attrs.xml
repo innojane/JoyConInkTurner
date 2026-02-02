@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ToggleRowView">
+        <attr name="toggleText" format="string" />
+        <attr name="toggleIcon" format="reference" />
+    </declare-styleable>
+</resources>

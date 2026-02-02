@@ -1,0 +1,19 @@
+package com.innojane.joyconinkturner.input
+
+import android.view.KeyEvent
+
+object JoyConKeyMap {
+    const val JOYCON_KEYCODE_BUTTON_A = KeyEvent.KEYCODE_BUTTON_B
+    const val JOYCON_KEYCODE_BUTTON_B = KeyEvent.KEYCODE_BUTTON_A
+    const val JOYCON_KEYCODE_BUTTON_X = KeyEvent.KEYCODE_BUTTON_X
+    const val JOYCON_KEYCODE_BUTTON_Y = KeyEvent.KEYCODE_BUTTON_Y
+    const val JOYCON_KEYCODE_BUTTON_HOME = KeyEvent.KEYCODE_BUTTON_MODE
+    const val JOYCON_KEYCODE_BUTTON_PLUS = KeyEvent.KEYCODE_BUTTON_START
+    const val JOYCON_KEYCODE_BUTTON_R = KeyEvent.KEYCODE_BUTTON_R1
+    const val JOYCON_KEYCODE_BUTTON_ZR = KeyEvent.KEYCODE_BUTTON_R2
+    const val JOYCON_KEYCODE_DPAD_UP = KeyEvent.KEYCODE_DPAD_UP
+    const val JOYCON_KEYCODE_DPAD_DOWN = KeyEvent.KEYCODE_DPAD_DOWN
+    const val JOYCON_KEYCODE_DPAD_LEFT = KeyEvent.KEYCODE_DPAD_LEFT
+    const val JOYCON_KEYCODE_DPAD_RIGHT = KeyEvent.KEYCODE_DPAD_RIGHT
+
+}
